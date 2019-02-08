@@ -1,0 +1,26 @@
+
+@import url("style/style-lang.css");
+
+html :lang(grc) {
+    font-family: iAWriterDuo5, sans-serif;
+}
+
+pre,
+code,
+kbd {
+  background-color: #f8f8f8;
+}
+
+/* Override style-IBMPlexSans.css from Sans theme */
+
+html code span,
+html :lang(x-default) code span,
+html :lang(en) code span,
+html samp span,
+html :lang(x-default) samp span,
+html :lang(en) samp span,
+html kbd span,
+html :lang(x-default) kbd span,
+html :lang(en) kbd span {
+	font-family: inherit;
+}
